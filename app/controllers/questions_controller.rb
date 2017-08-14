@@ -9,7 +9,7 @@ class QuestionsController < ApplicationController
       end
     elsif params[:question]
       @your_message = params[:question]
-      @answer = "Hi there"
+      @answer = "Hi there!"
     end
   end
 
